@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4150DC7319F97721000A0040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DC7219F97721000A0040 /* AppDelegate.swift */; };
+		4150DC7519F97721000A0040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DC7419F97721000A0040 /* ViewController.swift */; };
+		4150DC7819F97721000A0040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4150DC7619F97721000A0040 /* Main.storyboard */; };
+		4150DC7A19F97721000A0040 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4150DC7919F97721000A0040 /* Images.xcassets */; };
+		4150DC7D19F97721000A0040 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4150DC7B19F97721000A0040 /* LaunchScreen.xib */; };
+		4150DC8919F97722000A0040 /* Juan_DiegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150DC8819F97722000A0040 /* Juan_DiegoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4150DC8319F97722000A0040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4150DC6519F97721000A0040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4150DC6C19F97721000A0040;
+			remoteInfo = "Juan Diego";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4150DC6D19F97721000A0040 /* Juan Diego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juan Diego.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4150DC7119F97721000A0040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4150DC7219F97721000A0040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4150DC7419F97721000A0040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4150DC7719F97721000A0040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4150DC7919F97721000A0040 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4150DC7C19F97721000A0040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4150DC8219F97722000A0040 /* Juan DiegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juan DiegoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4150DC8719F97722000A0040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4150DC8819F97722000A0040 /* Juan_DiegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juan_DiegoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4150DC6A19F97721000A0040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4150DC7F19F97722000A0040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4150DC6419F97721000A0040 = {
+			isa = PBXGroup;
+			children = (
+				4150DC6F19F97721000A0040 /* Juan Diego */,
+				4150DC8519F97722000A0040 /* Juan DiegoTests */,
+				4150DC6E19F97721000A0040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4150DC6E19F97721000A0040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4150DC6D19F97721000A0040 /* Juan Diego.app */,
+				4150DC8219F97722000A0040 /* Juan DiegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4150DC6F19F97721000A0040 /* Juan Diego */ = {
+			isa = PBXGroup;
+			children = (
+				4150DC7219F97721000A0040 /* AppDelegate.swift */,
+				4150DC7419F97721000A0040 /* ViewController.swift */,
+				4150DC7619F97721000A0040 /* Main.storyboard */,
+				4150DC7919F97721000A0040 /* Images.xcassets */,
+				4150DC7B19F97721000A0040 /* LaunchScreen.xib */,
+				4150DC7019F97721000A0040 /* Supporting Files */,
+			);
+			path = "Juan Diego";
+			sourceTree = "<group>";
+		};
+		4150DC7019F97721000A0040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4150DC7119F97721000A0040 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4150DC8519F97722000A0040 /* Juan DiegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4150DC8819F97722000A0040 /* Juan_DiegoTests.swift */,
+				4150DC8619F97722000A0040 /* Supporting Files */,
+			);
+			path = "Juan DiegoTests";
+			sourceTree = "<group>";
+		};
+		4150DC8619F97722000A0040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4150DC8719F97722000A0040 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4150DC6C19F97721000A0040 /* Juan Diego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4150DC8C19F97722000A0040 /* Build configuration list for PBXNativeTarget "Juan Diego" */;
+			buildPhases = (
+				4150DC6919F97721000A0040 /* Sources */,
+				4150DC6A19F97721000A0040 /* Frameworks */,
+				4150DC6B19F97721000A0040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Juan Diego";
+			productName = "Juan Diego";
+			productReference = 4150DC6D19F97721000A0040 /* Juan Diego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4150DC8119F97722000A0040 /* Juan DiegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4150DC8F19F97722000A0040 /* Build configuration list for PBXNativeTarget "Juan DiegoTests" */;
+			buildPhases = (
+				4150DC7E19F97722000A0040 /* Sources */,
+				4150DC7F19F97722000A0040 /* Frameworks */,
+				4150DC8019F97722000A0040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4150DC8419F97722000A0040 /* PBXTargetDependency */,
+			);
+			name = "Juan DiegoTests";
+			productName = "Juan DiegoTests";
+			productReference = 4150DC8219F97722000A0040 /* Juan DiegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4150DC6519F97721000A0040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Juan Diego Catholic High School";
+				TargetAttributes = {
+					4150DC6C19F97721000A0040 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4150DC8119F97722000A0040 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4150DC6C19F97721000A0040;
+					};
+				};
+			};
+			buildConfigurationList = 4150DC6819F97721000A0040 /* Build configuration list for PBXProject "Juan Diego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4150DC6419F97721000A0040;
+			productRefGroup = 4150DC6E19F97721000A0040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4150DC6C19F97721000A0040 /* Juan Diego */,
+				4150DC8119F97722000A0040 /* Juan DiegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4150DC6B19F97721000A0040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4150DC7819F97721000A0040 /* Main.storyboard in Resources */,
+				4150DC7D19F97721000A0040 /* LaunchScreen.xib in Resources */,
+				4150DC7A19F97721000A0040 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4150DC8019F97722000A0040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4150DC6919F97721000A0040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4150DC7519F97721000A0040 /* ViewController.swift in Sources */,
+				4150DC7319F97721000A0040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4150DC7E19F97722000A0040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4150DC8919F97722000A0040 /* Juan_DiegoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4150DC8419F97722000A0040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4150DC6C19F97721000A0040 /* Juan Diego */;
+			targetProxy = 4150DC8319F97722000A0040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4150DC7619F97721000A0040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4150DC7719F97721000A0040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4150DC7B19F97721000A0040 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4150DC7C19F97721000A0040 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4150DC8A19F97722000A0040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4150DC8B19F97722000A0040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4150DC8D19F97722000A0040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Juan Diego/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4150DC8E19F97722000A0040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Juan Diego/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4150DC9019F97722000A0040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juan DiegoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juan Diego.app/Juan Diego";
+			};
+			name = Debug;
+		};
+		4150DC9119F97722000A0040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juan DiegoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juan Diego.app/Juan Diego";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4150DC6819F97721000A0040 /* Build configuration list for PBXProject "Juan Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4150DC8A19F97722000A0040 /* Debug */,
+				4150DC8B19F97722000A0040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4150DC8C19F97722000A0040 /* Build configuration list for PBXNativeTarget "Juan Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4150DC8D19F97722000A0040 /* Debug */,
+				4150DC8E19F97722000A0040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4150DC8F19F97722000A0040 /* Build configuration list for PBXNativeTarget "Juan DiegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4150DC9019F97722000A0040 /* Debug */,
+				4150DC9119F97722000A0040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4150DC6519F97721000A0040 /* Project object */;
+}
